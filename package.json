@@ -1,6 +1,6 @@
 {
   "name": "auto-swipe",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a simple react component for infinite horizontal auto  scrolling",
   "author": "oz-om",
   "license": "ISC",
