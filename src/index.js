@@ -1,1 +1,1 @@
-export { Swipe } from "./components/Swipe/Swipe.jsx";
+export * from "./components";

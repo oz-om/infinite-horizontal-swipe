@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
+
 export function Swipe({ children, childWidth = "120px", gap = "80px", duration = 10000, dir = "rtl" }) {
   const scroller = useRef();
-
   useEffect(() => {
     const Children = Array.from(scroller.current.children);
     // clone the items
