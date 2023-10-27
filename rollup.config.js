@@ -17,6 +17,7 @@ export default [
         sourcemap: true,
       },
     ],
+    external: ["react", "react-dom"],
     plugins: [
       babel({
         exclude: "node_modules/**", // only transpile our source code
